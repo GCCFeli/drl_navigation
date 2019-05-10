@@ -1,3 +1,8 @@
+[//]: # (Image References)
+
+[image1]: https://github.com/GCCFeli/drl_navigation/blob/master/Rewards.png?raw=true "Rewards" 
+[image2]: https://github.com/GCCFeli/drl_navigation/blob/master/Navigation.gif?raw=true "Result"  
+
 # Report
 
 ## 1. Getting started
@@ -23,10 +28,10 @@ Learning rate: 0.0005
 Update network every 4 frames
 
 ## 3. Plot of Rewards
-![Rewards.png](attachment:Rewards.png)
+![Rewards][image1]
 
 ## 4. Result
-![Navigation.gif](attachment:Navigation.gif)
+![Result][image2]
 
 ## 5. Ideas for Future Work
 
