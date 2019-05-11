@@ -24,7 +24,7 @@ In this problem, we choose a simple 2-layer neural network to approximate the op
 | -------------- | ----- | ----------- |
 | minibatch size | 64 | Number of training cases over each stochastic gradient descent (SGD) update is computed. |
 | replay buffer size | 100000 | SGD updates are sampled from this number of most recent frames. |
-| learning frequency | 4 | SGD update is applied every 4 frame. |
+| learning frequency | 4 | SGD updates are applied every 4 frame. |
 | soft update target paramater | 0.001 | Soft update target parameter  τ used to lerp between local network and target network. |
 | discount factor | 0.99 | Discount factor gamma used in the Q-learning update. |
 | learning rate | 0.0005 | The init learning rate used by Adam. |
