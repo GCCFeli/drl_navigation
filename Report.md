@@ -32,17 +32,27 @@ In this problem, we choose a simple 2-layer neural network to approximate the op
 | final exploration | 0.01 | Final value of ε in ε-greedy exploration. |
 
 ## 3. Plot of Rewards
+
+Training can be done in 400+ episodes.
+
 ![Rewards][image1]
 
 ## 4. Result
+
+Watch the video below to see the performance of a trained agent.
+
 ![Result][image2]
 
 ## 5. Ideas for Future Work
 
-A simple DQN is enough to solve this problem. However, some techniques can be used to improve training efficiency or final agent performance:
-* Double DQN (DDQN)
-* Prioritized experience replay
-* Dueling DQN
-* Rainbow DQN
+The original DQN is enough to solve this problem. However, some techniques can be used to improve training efficiency or final agent performance:
+* [Double DQN (DDQN)](https://arxiv.org/abs/1509.06461 "Double DQN (DDQN)")
+* [Prioritized experience replay](https://arxiv.org/abs/1511.05952 "Prioritized experience replay")
+* [Dueling DQN](https://arxiv.org/abs/1511.06581 "Dueling DQN")
+* [Learning from multi-step bootstrap targets](https://arxiv.org/abs/1602.01783 "Learning from multi-step bootstrap targets")
+* [Distributional DQN](https://arxiv.org/abs/1707.06887 "Distributional DQN")
+* [Noisy DQN](https://arxiv.org/abs/1706.10295 "Noisy DQN")
+
+All extensions can be incorporated to form the state-of-the-art DQN algorithm [Rainbow DQN](https://arxiv.org/abs/1710.02298 "Rainbow DQN") which outperforms each of the individual modifications.
 
 Hyperparameters are manually chosen for this problem. Grid search will be helpful to choose a better hyperparameter set.
