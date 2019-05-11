@@ -16,7 +16,7 @@ Please follow the instructions in README.md to setup the environment.
 This RL problem's state space is continous, and action space is descrete. So we choose the well known DQN([Deep Q-Networks](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf "Deep Q-Networks")) which perfectly matches the problem. 
 DQN is able to combine reinforcement learning with a class of artificial neural network known as deep neural networks (DNN).
 
-In this problem, we choose a simple 2-layer neural network to approximate the optimal action-value function. Nerual network input is just the state. Action input is omitted since it is not related to action-value approximation. Layer sizes are 128, 64. Activation function is ReLU. Loss function is MSE. Optimizer is Adam. Replay buffer and soft update is used to make learning stable.
+In this problem, we choose a simple 2-layer neural network to approximate the optimal action-value function. Nerual network input is just the state. Action input is omitted since it is not related to action-value approximation. Layer sizes are 128, 64. Activation function is ReLU. Loss function is MSE. Optimizer is Adam. Replay buffer and soft update are used to make learning stable.
 
 ### 2.2 Hyperparameters
 
